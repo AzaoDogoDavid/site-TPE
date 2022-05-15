@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Savoir en Informatique</title>
+    <link rel="stylesheet" href="Cours_UML.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div class="logo"><img src="sss.png"/></div>
+            <div class="slogan"><h1><span class="I">Technology</span><span class="K">Know</span></h1></div>
+            <div class="barre"><div class="item"><span></span></div></div>
+            <div class="cherche">
+                <div class="aide">
+                    <p><a href="#">Connection</a></p>
+                    <p><a href="#">Aide</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <nav class="Menu">
+                <ul>
+                    <li class="un"><a href="Original.html">Acceuil</a></li>
+                    <li class="Page_active"><a href="Cours.html">Cours</a></li>
+                    <li class="un"><a href="Actualités.html">Actualités</a></li>
+                    <li class="un"><a href="A propos.html">A propos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="banière">
+            <p>
+                Au coeur du monde actuel réside la TechnologyKnow dans plusieurs domaines. d'où l'importance
+                du E-learing. <span class="one">AzaoDDLearn.com</span> est là pour soutenir la communauté du webLearnig dans son ensemble.
+            </p>
+        </div>
+    </header>
+    <section>
+        <div class="debut">
+            <div class="logo"><img src="IMAGES/uml.png"/></div>
+            <div class="Slogan"><h1><span class="I">know</span><span class="K">UML</span></h1></div>
+        </div>
+        <div class="cours_détaillé">
+            <div class="Plan">
+                <h1>SOMMAIRE</h1>
+                <h2><a href="#a"> INTRODUCTION</a></h2>
+                <h2><a href="#b"> I.	DEFINITION ET EVOLUTION</a></h2>
+                <h3><a href="#c">1.	QU’EST-CE QUE UML ?</a></h3>
+                <h3><a href="#d">2.	EVOLUTION D’UML</a></h3>
+                <h2><a href="#e">II.	PROCESSUS DE MODELISATION</a></h2>
+                <h2><a href="#f">III.	PRESENTATION DES DIFFERENTS DIAGRAMMES</a></h2>
+                <h3><a href="#g">A.	 MODELE STATIQUE</a></h3>
+                <h4><a href="#h">1.	DIAGRAMME DE CLASSE</a></h4>
+                <h4><a href="#i">2.	LE DIAGRAMME DE STRUCTURE COMPOSITE</a></h4>
+                <h4><a href="#j">3.	DIAGRAMME DE PAQUETAGE</a></h4>
+                <h4><a href="#k">4.	DIAGRAMME DE DEPLOIEMENT</a></h4>
+                <h4><a href="#l">5.	LES DIAGRAMMES DE COMPOSANTS</a></h4>
+                <h4><a href="#m">6.	DIAGRAMME D’OBJETS</a></h4>
+                <h3><a href="#n">B.	MODELE DYNAMIQUE</a></h3>
+                <h4><a href="#o">1.	LE DIAGRAMME D’ETAT-TRANSITION</a></h4>
+                <h4><a href="#p">2.	DIAGRAMMES DE CAS D’UTILISATION</a></h4>
+                <h4><a href="#q">3.	DIAGRAMME D’ACTIVITES</a></h4>
+                <h4><a href="#r">4.	DIAGRAMMES D’INTERACTION</a></h4>
+                <h5><a href="#s">a)	DIAGRAMMES DE COLLABORATION : Vue générale d’interaction</a></h5>
+                <h5><a href="#t">b)	DIAGRAMME DE SÉQUENCE</a></h5>
+                <h5><a href="#u">c)	DIAGRAMME DE COMMUNICATION</a></h5>
+                <h5><a href="#v">d)	DIAGRAMME DE TEMPS</a></h5>
+                <h2><a href="#w">IV.	AVANTAGES ET INCONVENIENTS D’UML</a></h2>
+                <h3><a href="#x">1.	AVANTAGES</a></h3>
+                <h3><a href="#y">2.	INCONVENIENTS</a></h3>
+                <h2><a href="#z">CONCLUSION</a></h2>
+            </div>
+            <div class="Cours">
+                <div class="introduction">
+                    <h1 id="a">INTRODUCTION</h1>
+                    <p>
+                        La réalisation d'un site web doit être impérativement précédée d'une méthodologie 
+                        d'analyse et de conception qui a pour objectif de permettre 
+                        de formaliser les étapes préliminaires du développement d'un site afin de rendre ce développement 
+                        plus fidèle aux besoins du client. La phase d'analyse permet de lister les résultats attendus, 
+                        en termes de fonctionnalités et la phase de conception permet de décrire de manière non ambiguë, 
+                        le plus souvent en utilisant un langage de modélisation, le fonctionnement futur du système, 
+                        afin d'en faciliter la réalisation. D’où la nécessité du Langage de Modélisation Unifié. 
+                        Dans notre étude, nous auront à présenter l’UML dans son ensemble puis présenter les différents 
+                        diagrammes qui d’ailleurs sont indispensables au processus de modélisation de ce langage.
+                    </p>
+                </div>
+                <div class="Grand_un">
+                    <h1 id="b">I.	PRESENTATION GLOBALE : DEFINITION ET EVOLUTION</h1>
+                    <h3 id="c">1.	QU’EST-CE QUE UML ?</h3>
+                    <p>
+                        Unified Modeling Language(UML) est un langage unifié de modélisation objets. Ce n'est pas une méthode, 
+                        il ne donne pas de solution pour la mise en œuvre d'un projet. 
+                        C'est avant tout un formalisme graphique issu de notations employées dans 
+                        différentes méthodes objets. C’est le 1er standard international en conception de système d’information. 
+                        Il provient de l’unification de différents modèles Orientés-Objet. 
+                        Il ne s’agit pas d’une simple notation graphique, car les concepts transmis 
+                        par un diagramme ont une sémantique précise et sont porteurs de sens au même titre que les mots d’un langage.
+                    </p>
+                    <p>
+                        UML unifie également les notations nécessaires aux différentes activités 
+                        d’un processus de développement et offre, par ce biais, 
+                        le moyen d’établir le suivi des décisions prises, depuis l’expression de besoin jusqu’au codage. 
+                        Dans ce cadre, un concept 
+                        appartenant aux exigences des utilisateurs projette sa réalité dans le modèle de conception et dans le codage
+                    </p>
+                    <h3 id="d">2.	EVOLUTION D’UML</h3>
+                    <p>
+                        Uml n’étant pas une méthode mais un langage a dû subir des mises à jours au cours du temps. 
+                        Nous démarrons dans les années 90 avec les versions <b>(0.8, 0.9…)</b>  
+                        avec une standardisation avec l’<b>OMG</b>(Objet Management Group). 
+                        Nous notons aussi la présence de diverses méthodes Orientées Objets parmi lesquels nous pouvons citer :
+                    </p>
+                    <ul>
+                        <li><b>OMT</b>  par  <i>James Rumbaugh</i>  qui est utile à l’analyse et aux systèmes contenant une grande quantité de données</li>
+                        <li><b>OOD</b>  par  <i>Grady Booch</i>  particulièrement expressive pour les phases de conception et de construction d’un projet</li>
+                        <li><b>OOSE</b>  par <i>Ivar Jacobson</i> : excellent outil pour la représentation des cas d’utilisation en matière de définition des besoins, d’analyse et de conception générale</li>
+                    </ul>
+                    <p>
+                        L’UML  pour sa répresentation graphique utilise des diagrammes qui eux aussi evoluent en fonction de la version d’UML. 
+                        La version 1.3 n’avais que 9 diagrammes. 
+                        Mais de nos jours nous en sommes à une dizaine avec les versions 2.x genre 14 avec plus d’exactitude dans 2.3.
+                    </p>
+                </div>
+                <div class="Grand_deux">
+                    <h1 id="e">II.	PROCESSUS DE MODELISATION</h1>
+                    <p>
+                        En général, UML pour sa représentation se décompose en trois sous-ensembles : 
+                    </p>
+                    <ul>
+                        <li>
+                            <b>Les vues :</b> Les vues sont les observables du système. Elles décrivent le système d'un point de vue donné, 
+                            qui peut être organisationnel, dynamique, temporel, architectural, géographique, 
+                            logique, etc. En combinant toutes ces vues, il est possible de définir (ou retrouver) le système complet. Une façon de 
+                            mettre en œuvre UML est de considérer différentes vues qui peuvent se superposer pour collaborer à la définition du système :
+                            <ul>
+                                <li>
+                                    <b>Vue des cas d'utilisation :</b> c'est la description du modèle vu par les acteurs du système. 
+                                    Elle correspond aux besoins attendus par chaque acteur (c'est le QUOI et le QUI).
+                                </li>
+                                <li>
+                                    <b>Vue logique :</b> c'est la définition du système vu de l'intérieur. 
+                                    Elle explique comment peuvent être satisfaits les besoins des acteurs (c'est le COMMENT).
+                                </li>
+                                <li>
+                                    <b>Vue d'implémentation :</b> cette vue définit les dépendances entre les modules. 
+                                </li>
+                                <li>
+                                    <b>Vue des processus :</b> c'est la vue temporelle et technique, qui met en œuvre 
+                                    les notions de tâches concurrentes, stimuli, contrôle, synchronisation, etc.
+                                </li>
+                                <li>
+                                    <b>Vue de déploiement :</b> cette vue décrit la position 
+                                    géographique et l'architecture physique de chaque élément du système (c'est le OÙ).
+                                </li>    
+                            </ul> 
+                        </li>
+                        <li>
+                            <b>Les diagrammes :</b> Les diagrammes sont des éléments graphiques. Ceux-ci décrivent le contenu des vues, qui sont des notions abstraites. 
+                            Les diagrammes peuvent faire partie de plusieurs vues. 
+                            De nos jours nous en sommes à une dizaine surtout avec les versions ressentes.
+                        </li>
+                        <li>
+                            <b>Les modèles d'élément :</b> Les modèles d'élément sont les briques des diagrammes UML, 
+                            ces modèles sont utilisés dans plusieurs types de diagrammes. 
+                            Exemple d'élément : cas d'utilisation, classe, association, etc…
+                        </li>
+                    </ul>
+                </div>
+                <div class="Grand_trois">
+                    <h1 id="f">III.    LES DIFFERENTS DIAGRAMMES</h1>
+                    <p>
+                        Les diagrammes sont des éléments graphiques. Ceux-ci décrivent le contenu des vues, qui sont des notions abstraites. 
+                        Les diagrammes peuvent faire partie de plusieurs vues.
+                    </p>
+                    <p>Les <b>13 diagrammes UML</b> sont dépendants hiérarchiquement et se complètent, 
+                        de façon à permettre la modélisation d'un projet tout au long de son cycle de vie. 
+                        Au départ on n’en avait que <b>9 diagrammes</b> avec les <em>versions 1.x</em> divisés en deux vues ou deux types de diagrammes 
+                        <i>(statiques et dynamiques)</i> qui peuvent également être appelés des modèles. C’est récemment avec les <em>versions 2.x</em>  que 
+                       <b>04 diagrammes</b>  se sont ajoutés regroupés en <strong>digrammes d’interaction</strong>  qui sont une autre forme du modèle dynamique. 
+                        Avant toute présentation, nous notons que dans les différentes phases de mise sur pieds d’un système, 
+                        les diagrammes UML interviennent dans la phase de conception du logiciel.
+                    </p>
+                    <h2 id="g">A.	LE MODELE STATIQUE OU DIAGRAMMES STRUCTURELS</h2>
+                    <h3 id="h">1.	LE DIAGRAMME DE CLASSE </h3>
+                    <p>
+                        Le diagramme de classe constitue l’un des pivots essentiels de la modélisation avec UML. En effet, 
+                        ce diagramme permet de donner la représentation statique du système à développer. 
+                        Cette représentation est centrée sur le concept de classe et d’association. Chaque classe se décrit par 
+                        les données et les traitements dont elle est responsable pour elle-même et vis-à-vis des autres classes. 
+                        Les traitements sont matérialisés par des opérations. La description du diagramme de classe est fondée sur :
+                    </p>
+                    <ul>
+                        <li>Le concept d’objet</li>
+                        <li>Le concept de classe comprenant les attributs et les opérations</li>
+                        <li>Les différents types d’association entre classes</li>
+                    </ul>
+                    <h4>1.1.  OBJET, CLASSE, ATTRIBUT, et OPERATION</h4>
+                    <h5>a.  Objects et Classes</h5>
+                    <p>
+                        Une classe décrit un groupe d’objet ayant les mêmes propriétés (attributs), 
+                        un même comportement (opérations), et une sémantique commune (domaine de définition).
+                    </p>
+                    <p>
+                        Un objet est un concept, une abstraction ou une chose qui a un sens dans le contexte du système à modéliser. 
+                        Chaque objet a une identité et peut être distingué des autres sans considérer à priori les valeurs de ses propriétés. 
+                        Un objet est une instance d’une classe. La classe représente l’abstraction de ses objets. Au niveau de l’implémentation, 
+                        c’est-à-dire au cours de l’exécution d’un programme, l’identificateur d’un objet correspond à une adresse mémoire
+                    </p>
+                    <p><i><u><b>Formalisme générale et exemple</b></u></i></p>
+                    <p>
+                        Une classe est représentée par un rectangle (appelé aussi classeur) divisé en 3 compartiments de 
+                        base qui sont :
+                        <b><i>Le premier compartiment</i></b> contient le nom de la classe qui :
+                        représente le type d’objet instancié.
+                        débute par une lettre majuscule.
+                        <b><i>Le deuxième compartiment</i></b> contient les attributs.
+                        <b><i>Le troisième compartiment</i></b> contient les méthodes ou opérations
+                        Si la modélisation ne s’intéresse qu’aux relations entre les déférentes
+                        classe du système (et pas au contenu des classes), nous pouvons ne pas représenter 
+                        les attributs et les méthodes de chaque classe (nous ne mettons rien dans le deuxième et 
+                        troisième compartiment).
+
+                    </p>
+                    <!--<img src="IMAGES/1.PNG" alt="">-->
+                    <h5>b.  Attribut</h5>
+                    <p>
+                        Un attribut est une propriété élémentaire d’une classe. Pour chaque objet 
+                        d’une classe, l’attribut prend une valeur (sauf le cas des attributs multivalués).
+                    </p>
+                    <h5>c.  Opérations</h5>
+                    <p>
+                        Une opération est une fonction applicable aux objets d’une classe. 
+                        Une opération permet de décrire le comportement d’un objet. Une méthode est l’implémentation d’une opération. 
+                    </p>
+                    <h4>1.2. 	VISIBILITE DES ATTRIBUTS ET OPERATIONS</h4>
+                    <p>
+                        Chaque attribut ou une opération d’une classe peut être de type public, protégé, privé ou paquetage. 
+                        Les symboles + (public), # (protégé), - (privé), ~ (paquetage) sont indiqué devant chaque attribut ou 
+                        opération pour signifier le type de visibilité autorisé pour les autres classes.
+                        Les droits associés à chaque niveau de confidentialité sont :
+                    </p>
+                    <ul>
+                        <li><b>Public (+)</b> attribut ou opération visible par tous ;</li>
+                        <li><b>Protégé (#)</b> attribut ou opération visible seulement à l’intérieur de la classe et pour toutes les sous-classes de la classe</li>
+                        <li><b>Privé (-)</b> attribut ou opération visible seulement à l’intérieur de la classe.</li>
+                        <li><b>Paquetage (~)</b> attribut ou opération visible seulement à l’intérieur du paquetage où se trouve la classe</li>
+                    </ul>
+                    <!--<img src="IMAGES/2.PNG" alt="">-->
+                    <h4>1.3.     ASSOCIATION, MULTIPLICITE ET NAVIGABILITE</h4>
+                    <h5>a)   Liens et Association</h5>
+                    <p>
+                        Un lien est une connexion physique ou conceptuelle entre instances de classes donc entre objets. 
+                        Une association décrit un groupe de liens ayant une même structure et une même sémantique. Une association entre classes 
+                        représente 
+                        les liens qui existent entre les instances de ces classes. Chaque association peut être identifiée par son nom
+                    </p>
+                    <h5>b)   Multiplicité</h5>
+                    <p>
+                        La multiplicité indique un domaine de valeurs pour préciser le nombre d'instance d'une classe vis-à-vis d'une 
+                        autre classe pour une association donnée. La multiplicité peut aussi être utilisée pour d'autres usages comme par 
+                        exemple un attribut multivalués. 
+                        Le domaine de valeurs est décrit selon plusieurs formes :
+                    </p>
+                    <ul>
+                        <li>Intervalle fermé - Exemple : 2, 3. .15</li>
+                        <li>Valeurs exactes - Exemple : 3, 5, 8</li>
+                        <li>Valeur indéterminée notée - Exemple : 1...*.</li>
+                    </ul>
+                    <p>
+                        Dans le cas où l'on utilise seulement *, cela traduit une multiplicité 0..*.
+                    </p>
+                    <h5>c)   Navigabilité</h5>
+                    <p>
+                        La navigabilité indique si l’association fonctionne de manière unidirectionnelle ou bidirectionnelle, elle est 
+                        matérialisée par une ou deux extrémités fléchées. La non-navigabilité se représente par un X.
+                    </p>
+                    <h4>1.4 	GENERALISATION ET SPECIALISATION </h4>
+                    <p>
+                        La généralisation est la relation entre une classe et deux autres
+                         classes ou plus partageant un sous-ensemble commun d’attributs et/ou opérations.
+                    </p>
+                    <p>
+                        La classe qui est affinée s’appelle superclasse, les classes affinées s’appellent sous-classes. 
+                        L’opération qui consiste à créer une superclasse à partir de classes s’appelle la généralisation. 
+                        Inversement la spécialisation consiste à créer des sous classes à partir d’une classe.
+                    </p>
+                    <p>
+                        L’héritage permet à une sous-classe de disposer des attributs et opérations de la classe dont elle dépend.
+                    </p>
+                    <p>
+                        La figure ci-dessous montre un exemple de relation de spécialisation. Dans cet exemple, les attributs nom, 
+                        prénom et date de naissance et l’opération « calculer âge » de « Employé » 
+                        sont hérités par les trois sous classes : Employé horaire, Employé salarié et Vacataire
+                    </p>
+                    <!--<img src="IMAGES/3.PNG" alt="">-->
+                    <h4>1.5     AGREGATION ET COMPOSITION ENTRE LES CLASSES</h4>
+                    <h5>a)   Agrégations</h5>
+                    <p>
+                        L’agrégation est une association qui permet de représenter un lien de type « ensemble » comprenant des « éléments ».
+                         Il s’agit d’une relation entre une classe représentant le niveau « ensemble » et 1 à n classes de niveau « éléments ». 
+                        L’agrégation représente un lien structural entre une classe et une ou plusieurs autres classes.
+                    </p>
+                    <h5>b)	Composition</h5>
+                    <p>
+                        La composition est une relation d’agrégation dans laquelle il existe une contrainte de durée de vie entre 
+                        la classe « composante » et la ou les classes « composées ». Autrement dit la suppression
+                         de la classe « composée » implique la suppression de la ou les classes « composantes ». 
+                    </p>
+                    <h3 id="i">2.	LE DIAGRAMME DE STRUCTURE COMPOSITE</h3>
+                    <p>
+                        Dans les modèles UML, un diagramme de structure composite décrit la structure interne des discriminants structurés à 
+                        l'aide de composants, de ports et de connecteurs. Un discriminant structuré définit l'implémentation d'un discriminant 
+                        et peut inclure une classe, un composant ou un nœud de déploiement. Vous pouvez utiliser le diagramme de structure composite 
+                        pour afficher les détails internes d'un discriminant et pour décrire les objets et rôles qui collaborent pour réaliser le 
+                        comportement du discriminant contenant. Un diagramme de structure composite 
+                        est similaire à un diagramme de classes, si ce n'est qu'il décrit des composants donnés et non des classes complètes. 
+                    </p>
+                    <p>
+                        Dans les diagrammes de structure composite, les ports définissent le point d'interaction entre un discriminant et son
+                         environnement ou entre un discriminant et ses composants internes. 
+                        Nous pouvons utiliser un port pour définir les services qu'un discriminant fournit à son environnement et en attend.
+                    </p>
+                    <p><b><i>Qu'est-ce qu'un diagramme de structure composite ?</i></b></p>
+                    <p>
+                        Un diagramme de structure composite est un diagramme structurel UML qui fournit une vue d'ensemble 
+                        logique de l'ensemble ou d'une partie d'un système logiciel. Il permet de visualiser un classifieur 
+                        structuré donné, en définissant ses 
+                        classes de configuration, ses interfaces, ses packages et les liens qui les unissent dans le détail.
+                    </p>
+                    <!--<img src="IMAGES/27.PNG" alt="">-->
+                    <p>
+                        Nous pouvons aussi modéliser des collaborations et des utilisations de collaboration dans des diagrammes 
+                        de structure composite. Une collaboration décrit les rôles et les attributs qui définissent un comportement 
+                        particulier du discriminant. Une utilisation de collaboration représente une utilisation particulière de la 
+                        collaboration pour expliciter les relations entre les propriétés d'un discriminant. Pour identifier les rôles 
+                        des composants dans l'utilisation de collaboration, nous rattachons une utilisation de collaboration à
+                         une collaboration, puis nous ajoutons l'utilisation de collaboration à un diagramme de structure composite.
+                    </p>
+                    <p>
+                        Comme le montre la figure suivante, un diagramme de structure composite est affiché dans 
+                        l'éditeur de diagramme comme un cadre qui a le nom du discriminant contenant. Les composants composites du
+                         discriminant et leurs connexions de communication sont affichés dans le cadre du diagramme.
+                    </p>
+                    <!--<img src="IMAGES/28.PNG" alt="">-->
+                    <p>
+                        L'exemple représenté dans la figure montre comment le diagramme de structure composite identifie le 
+                        discriminant contenant, Car. Le cadre du diagramme présente quatre composants composites internes du 
+                        discriminant contenant, qui représentent les quatre roues du véhicule et sont du type Wheel. Un lien de 
+                        communication relie les
+                         roues avant et les roues arrière au moyen de connecteurs nommés <b>frontaxle</b> (essieu avant) et <b>rearaxle</b> (essieu arrière).
+                    </p>
+                    <p>
+                        Lorsque nous créons un diagramme de structure composite à partir du discriminant Car, 
+                        quatre instances de la classe Wheel sont créées. Ces composants sont gérés par 
+                        composition dans l'instance Car et les roues avant et les roues arrière sont reliées par des connecteurs.
+                    </p>
+                    <p>
+                        Les rubriques suivantes décrivent les éléments de modèle dans les diagrammes de structure composite :
+                    </p>
+                    <ul>
+                        <li><b>Composants</b>
+                            <p>
+                                Dans les diagrammes de structure composite, un composant est un élément de diagramme qui représente 
+                                un ensemble d'une ou plusieurs instances appartenant à un discriminant structuré contenant. 
+                                Un composant décrit le rôle d'une instance dans un discriminant. Nous pouvons créer des composants 
+                                dans le compartiment de structure d'un discriminant et dans plusieurs diagrammes UML (diagrammes de 
+                                structure composites, de classes, d'objets, de composants, de déploiement et de packages).
+                            </p>
+                        </li>
+                        <li><b>Ports</b>
+                            <p>
+                                Dans les diagrammes de structure composites, un port définit le point
+                                 d'interaction entre une instance de discriminant et son 
+                                environnement ou entre le comportement du discriminant et ses composants internes.
+                            </p>
+                        </li>
+                        <li><b>Collaborations</b>
+                            <p>
+                                Dans les diagrammes UML, une collaboration est un type de discriminant structuré dans lequel les rôles et
+                                 attributs coopèrent pour définir la structure interne d'un discriminant. Vous utilisez une collaboration 
+                                 lorsque vous voulez définir uniquement les rôles et connexions qui sont requis pour réaliser un but particulier
+                                  de la collaboration. Par exemple, le but d'une collaboration peut être de définir les rôles ou les composants d'un
+                                   discriminant. En isolant 
+                                les rôles primaires, une collaboration simplifie la structure et clarifie le comportement dans un modèle.
+                            </p>
+                        </li>
+                        <li><b>Utilisations de collaboration</b>
+                            <p>
+                                Dans les diagrammes de structure composite, une utilisation de collaboration est un élément 
+                                de modèle qui représente l'une des utilisations d'une collaboration pour expliciter les relations 
+                                entre les composants d'un discriminant structuré. Nous employons une utilisation de collaboration pour 
+                                appliquer un pattern, qui est décrit par une collaboration, à une situation particulière qui comprend des classes 
+                                ou des instances qui jouent les rôles de la collaboration spécifiée. Vous pouvez disposer de plusieurs utilisations de 
+                                collaboration impliquant chacune un ensemble de rôles et connecteurs différent pour une collaboration donnée.
+                            </p>
+                        </li>
+                        <li><b>Connecteurs dans les discriminants structurés</b>
+                            <p>
+                                Dans les diagrammes UML, un connecteur est une ligne qui représente une relation dans un modèle. 
+                                Lorsque vous modélisez la structure interne d'un discriminant, vous pouvez utiliser un connecteur pour 
+                                indiquer un lien entre plusieurs instances d'un composant ou d'un port. Le connecteur définit la relation entre 
+                                les objets ou instances qui sont 
+                                liés aux rôles dans le même discriminant structuré et il identifie la communication entre ces rôles.
+                            </p>
+                        </li>
+                    </ul>
+                    <p><i><b><u>Avantages des diagrammes de structure composite</u></b></i></p>
+                    <p>
+                        Un diagramme de structure composite permet aux utilisateurs de déterminer précisément ce qui est contenu dans un objet,
+                         en spécifiant la manière dont différentes propriétés interagissent pour produire un certain comportement. Les différentes
+                          relations au sein d'un système logiciel complexe peuvent être difficiles à appréhender, mais la décomposition des 
+                          fonctionnalités peut fournir des informations 
+                        précieuses sur la manière dont les structures sont interconnectées, dont les informations sont communiquées, etc.
+                    </p>
+                    <p>
+                        <b>Un diagramme de structure composite offre également les avantages suivants :</b>
+                    </p>
+                    <ul>
+                        <li>Il aide les utilisateurs à comprendre l'état actuel de leur système.</li>
+                        <li>Il décompose la structure interne de plusieurs classes, interfaces ou composants, et leurs interactions.</li>
+                        <li>Il détaille les architectures d'exécution et les modèles d'utilisation que les diagrammes statiques ne peuvent pas représenter.</li>
+                        <li>Il fournit aux utilisateurs des informations pour optimiser et dépanner leur système.</li>
+                    </ul>
+                    <p><b>
+                        Composants de base d'un diagramme de structure composite
+                    </b></p>
+                    <p>
+                        Un diagramme de structure composite est composé d'un certain nombre de symboles UML qui représentent les 
+                        différentes parties d'un système, ainsi que les liens qui les unissent. Utilisez la 
+                        bibliothèque de formes UML de <b>Lucidchart</b> pour bâtir votre diagramme de structure composite avec les icônes ci-dessous. 
+                    </p>
+                    <!--<img src="IMAGES/4.PNG" alt="">-->
+                    <!--<img src="IMAGES/5.PNG" alt="">-->
+                    <p><b>
+                        Comment faire un diagramme de structure composite
+                    </b></p>
+                    <p>
+                        Avec <b>Lucidchart</b> , vous pouvez facilement créer un diagramme de structure composite
+                         UML en partant de zéro. Suivez les étapes ci-dessous pour vous lancer:
+                    </p>
+                    <ol type="1">
+                        <li>Ouvrez un document vierge ou choisissez un modèle dans notre galerie de modèles.</li>
+                        <li>Activez la bibliothèque de formes UML en cliquant sur Formes sur le côté gauche de l'espace de travail. Ensuite, cochez UML dans le gestionnaire d'espace de travail et cliquez sur Enregistrer pour activer vos modifications. </li>
+                        <li>Créez votre premier composant en cliquant sur une forme, puis en la faisant glisser sur la zone de travail. Continuez à ajouter des composants jusqu'à ce que chaque partie de votre système soit représentée.</li>
+                        <li>Selon vos besoins, regroupez les composants par classes et interfaces en les intégrant dans une forme plus grande ou en utilisant des formes de sucettes et de douilles. Nommez chacune des formes de manière appropriée.</li>
+                        <li>Ajoutez des ports à chaque composant, classe ou interface pour représenter les points d'interaction. Donnez un nom à chacun des ports.</li>
+                        <li>Ajoutez des nœuds pour représenter des types et instances supplémentaires au sein de votre système.</li>
+                        <li>Modélisez le flux de processus de votre système en traçant des lignes entre les ports et les composants concernés.</li>
+                    </ol>
+                    <h3 id="j">3.	DIAGRAMME DE PAQUETAGE</h3>
+                    <p>
+                        Lorsque nous sommes en présence d’un système de grande taille, il peut être intéressant de le décomposer en plusieurs parties (appelées paquetage).
+                    </p>
+                    <p>
+                        Un paquetage est donc un regroupement de différents éléments d’un système (regroupement de classes, diagrammes, 
+                        fonctions, interfaces…). Cela permet de 
+                        clarifier le modèle en l’organisant. Il est représenté par un dossier avec son 
+                    </p>
+                    <p>A l'intérieur <!--<img src="IMAGES/6.PNG" alt="">-->Ou à l'extérieur <!--<img src="IMAGES/7.PNG" alt="">--></p>
+                    <p>Il est possible de représenter les éléments du système appartenant au paquetage: à l'intérieur de celui-ci</p>
+                    <!--<img src="IMAGES/8.PNG" alt="">-->
+                    <p>
+                        Pour faire appel à un élément d’un paquetage, nous indiquons le nom du paquetage (espace de nommage) suivi de deux fois deux points (::)  puis du nom de l’élément.
+                    </p>
+                    <!--<img src="IMAGES/9.PNG" alt="">-->
+                    <p>
+                        Les paquetages peuvent s’imbriquer (décomposition hiérarchique) mais pas se chevaucher. 
+                        Un élément du système ne peut appartenir qu’à un et un seul paquetage. Chaque paquetage doit posséder un nom différent
+                    </p>
+                    <h4>a)   Rôle du diagramme de paquetages </h4>
+                    <p>
+                        Le diagramme de paquetages est un diagramme structurel (statique) d’UML qui représente les <b>paquetages</b>  
+                        (ou espaces de noms) composant un système, ainsi que les <b>relations</b>  qui lient ces différents paquetages.
+                    </p>
+                    <h4>b)   Dépendances entre paquetages </h4>
+                    <ul>
+                        <li><i><u><b>Visibilité</b></u></i>
+                            <ul>
+                                <li><b>Privé:</b> c'est-à-dire encapsulé dans le paquetage et invisible à l’extérieur de celui-ci. Un élément privé est désigné par un signe – devant lui</li>
+                                <li><b>Public:</b> c'est-à-dire visible et accessible de l’extérieur du paquetage. Un élément public est désigné par un signe + devant lui.</li>
+                                <p>Par défaut, les éléments d’un paquetage sont publics.</p>
+                                <!--<img src="IMAGES/10.PNG" alt="">-->
+                            </ul>
+                        </li>
+                        <li><i><u><b>Dépendance de type   « import   » :</b></u></i>
+                            <ul>
+                                <p>Elle correspond à l’importation par un paquetage B de tous les éléments publics d’un paquetage A.
+                                    Ces éléments :
+                                </p>
+                                <li>Auront la visibilité « public » dans le paquetage B (et seraient donc aussi transmis à un paquetage C qui ferait une importation du paquetage B).</li>
+                                <li>Seront accessibles au paquetage B sans avoir à utiliser explicitement le nom du paquetage A.
+                                    La dépendance de type « import » est représentée par une flèche pointillée muni du stéréotype "import".
+                                </li>
+                                <!--<img src="IMAGES/11.PNG" alt="">-->
+                                <p>Le paquetage B importe Classe1 et Classe2 (pas Classe3 qui a une visibilité de type privée).</p>
+                                <p>Classe1 et Classe2 ont une visibilité de type public dans paquetage B. Le paquetage C importe Classe1, Classe2 et Classe4</p>
+                            </ul>
+                        <li><i><u><b>Dépendance de type   « access   » :</b></u></i>
+                            <p>Elle correspond à l’accès par un paquetage B de tous les éléments publics d’un paquetage A. Ces éléments auront la visibilité privée dans le paquetage B, ils ne peuvent donc pas être transmis à un paquetage C qui ferait une importation ou un accès au paquetage B (pas de transitivité).</p>
+                            <p>La dépendance de type « access » est représentée par une flèche pointillée muni du stéréotype "access".</p>
+                            <!--<img src="IMAGES/12.PNG" alt="">-->
+                            <p>Le paquetage B a accès à Classe1 et Classe2 (pas à Classe3 qui a une visibilité de type privée).</p>
+                            <p>Classe1 et Classe2 ont une visibilité de type privé dans paquetage B. Le paquetage C a accès à Classe4 (pas à Classe1 et Classe2 qui ont une visibilité de type privée dans paquetage B).</p>
+                        </li>   
+                        <li><i><u><b>Dépendances de type   « merge   » :</b></u></i>
+                            <p>Elle correspond à la fusion de 2 paquetages en un seul.</p>
+                            <p>La dépendance de type « merge » est représentée par une flèche pointillée muni du stéréotype "merge"</p>
+                            <!--<img src="IMAGES/13.PNG" alt="">-->
+                            <p>Le paquetage A est fusionné dans le paquetage B (le paquetage A n’est pas modifié alors que le paquetage B est écrasé pour accueillir la fusion des 2 paquetages). </p>
+                        </li> 
+                    </ul>
+                    <h3 id="k">4.	DIAGRAMME DE DEPLOIEMENT</h3>
+                    <p>
+                        En UML, un diagramme de déploiement est une vue statique qui sert à représenter l'utilisation de
+                         l'infrastructure physique par le système et la manière dont les composants du système sont répartis 
+                         ainsi que leurs relations entre eux. Les éléments utilisés par un diagramme de déploiement sont principalement 
+                         les nœuds, les composants, les associations et les artefacts. Les caractéristiques 
+                        des ressources matérielles physiques et des supports de communication peuvent être précisées par stéréotype.
+                    </p>
+                    <!--<img src="IMAGES/14.PNG" alt="">-->
+                    <p>
+                        Il correspond à la structure du réseau informatique qui prend en charge le système logiciel et à la façon 
+                        dont les composants y sont installés
+                        Décrit le déploiement des composants sur les dispositifs matérieles
+                        lié au diagrammes de composants dans le sens ou un noeud renferme généralement un ou plusieurs composants
+                    </p>
+                    <ul>
+                        <li><i><b>Noeuds</b></i>
+                            <p>Les nœuds (nodes), représentés par des cubes, sont des composants mécaniques de l'infrastructure tel un routeur, 
+                                un ordinateur, un assistant personnel... Ceux-ci peuvent comprendre d'autres nœuds ou artefacts.
+                                 Les nœuds internes indiquent l'environnement d'exécution plutôt que l'infrastructure physique.</p>
+                        </li>
+                        <li><i><b>Composants</b></i>
+                            <p>Les composants, représentés par des boites rectangulaires avec deux 
+                                rectangles sortant du côté gauche, sont les différentes parties du système étudié.</p>
+                        </li>
+                        <li><i><b>Connexions</b></i>
+                            <p>Les connexions sont principalement de deux types : associations ou dépendances</p>
+                        </li>
+                        <li><i><b>Associations</b></i>
+                            <p>Les associations, représentées par de simples lignes sont des liens de communication, 
+                                s'établissent entre les différents composants du système.</p>
+                        </li>
+                        <li><i><b>Dépendances</b></i>
+                            <p>Les dépendances, représentées par des flèches vides, sont régies par les règles standard de l'UML 2.0.</p>
+                        </li>
+                        <li><i><b>Artéfacts</b></i>
+                            <p>Dans ce contexte, un artefact est une manière de définir un fichier, un programme, 
+                                une bibliothèque ou une base de données construite ou modifiée dans un projet. Ces artefacts mettent en œuvre des 
+                                collections de composants qui sont consommées ou créées durant l'une des étapes du processus de déploiement.</p>
+                        </li>
+                    </ul>
+                    <h3 id="l">5.	LES DIAGRAMMES DE COMPOSANTS</h3>
+                    <p>
+                        Un diagramme de composant est un rassemblement de composant tel que vus par l'équipe de développement pour 
+                        décomposer le système en parties de logiciel gérables (du point de vue de développement en gestion de projet) 
+                        c'est-à-dire je peux prendre mon système et décomposer en petit système autonome qu'on appellera composant et ces composants
+                         sont reliés les uns aux autres grâce à l'utilisation d'interfaces, qui sont ensuite reliées à l'aide des connecteurs.
+                    </p>
+                    <p>
+                        Les dépendances entre composants permettent notamment d'identifier les contraintes de compilation et de 
+                        mettre en évidence la réutilisation de composants.
+                    </p>
+                    <p>
+                        Un composant est représenté par un rectangle avec des onglets. Ce rectangle contiendra le nom du composant.
+                    </p>
+                    <!--<img src="IMAGES/15.PNG" alt="">-->
+                    <p>
+                        Un composant propose un ensemble d'interfaces qu'il se doit de respecter.
+                         Un composant peut être remplacé par un autre composant respectant les mêmes interfaces.
+                    </p>
+                    <p>
+                        Une interface est un ensemble d'opérations servant à spécifier un service proposé par un composant ou par une classe. 
+                        Elle contient les opérations misent à la disposition des autres composants. Un composant peut implémenter plusieurs interfaces.
+                         Une interface peut être 
+                        représentée sous forme d’une icône (rond)  ou représentée l'exportation et l'importation d'une interface par un composant.
+                    </p>
+                    <p>
+                        Ils existent deux (02) types d'interfaces qui sont : requise celle en en arc de cercle et fournies celle en rond.
+                    </p>
+                    <!--<img src="IMAGES/16.PNG" alt="">-->
+                    <p>
+                        Le port est le point de connexion entre le composant et son environnement. Il est la matérialisation de l'interface.
+                         Nous la representerons par un petit carré à la périphérie de composant.
+                    </p>
+                    <p>
+                        <u>Exemple:</u> Un ordinateur est un ensemble de composants modulaires qui fournissent et reçoivent des
+                         services (carte mère, clavier, écran...). Chacun de ces composants est remplaçable par un autre composant 
+                         (pas forcement identique) à condition qu'il ait des interfaces compatibles. En UML, les composants ne sont pas des éléments 
+                        materiels mais des éléments logiciels qui par contre seront installés sur des éléments materiels.
+                    </p>
+                    <p>
+                       <u><i><b>Exemple de composant</b></i></u> 
+                         La gestion des utilisateurs se compose d'une fenêtre d'inscription et d'une fenêtre de modification des données. Toutes les données sont stockées dans une base de données.
+                    </p>
+                    <!--<img src="IMAGES/17.PNG" alt="">-->
+                    <h3 id="m">6.	DIAGRAMME D’OBJETS</h3>
+                    <p>
+                        Le diagramme d’objets permet de représenter les instances des classes, c’est à dire des objets. Il exprime les relations qui existent entre les objets.
+                    </p>
+                    <p>
+                        Les diagrammes d'objets s'utilisent pour montrer l'état des instances d'objet avant et après une interaction, autrement dit c'est une
+                         photographie à un instant précis des attributs et objet existant. Il est utilisé en phase  exploratoire.
+                    </p>
+                    <p><u><b>Création du diagramme d’objets</b></u></p>
+                    <p>
+                        Les diagrammes d’objets sont simples à créer, ils sont composés d’objets représentés par des 
+                        rectangles et reliés par des lignes. Les principaux éléments d’un
+                         diagramme d’objets sont : les objets, les titres de classe, les attributs de classe, les liens.
+                    </p>
+                    <h5>a)   Objets</h5>
+                    <p>
+                        Les objets désignent les instances d’une classe. Par exemple si 
+                        "voiture" est une classe, "Toyota" est une instance de cette classe
+                    </p>
+                    <h5>b)	Titres de classe</h5>
+                    <p>
+                        Les titres de classe sont les attributs spécifiques d’une classe donnée. Par exemple dans le diagramme 
+                        d’objets de la figure 1, ce sont le nom, le sexe et l’âge des membres de la famille.
+                    </p>
+                    <h5>c)	Attributs de classe</h5>
+                    <p>
+                        Les attributs de classe sont représentés par un rectangle avec deux onglets qui indique un élément de logiciel.
+                    </p>
+                    <h5>d)	Liens</h5>
+                    <p>
+                        Les liens correspondent aux lignes qui relient deux formes d’un diagramme d’objets.
+                    </p>
+                    <!--<img src="IMAGES/18.PNG" alt="">-->
+                    <h2 id="n">B.	LE MODELE DYNAMIQUE OU DIAGRAMMES DE COMPORTEMENT</h2>
+                    <h3 id="o">1.	LE DIAGRAMME D’ETAT-TRANSITION</h3>
+                    <p>
+                        Un diagramme états-transitions est un schéma utilisé en génie logiciel pour représenter des automates déterministes. 
+                        Il fait partie du modèle UML et s'inspire principalement du formalisme desstatecharts et rappelle les grafcets des 
+                        automates. S'ils ne permettent pas de comprendre globalement le fonctionnement du système, ils sont directement 
+                        transposables en algorithme. 
+                        Tous les automates d'un système s'exécutent parallèlement et peuvent donc changer d'état de façon indépendante.
+                    </p>
+                    <h4>a)	Définition</h4>
+                    <p>
+                        Le  diagramme  d’états-transitions  est  le  seul  diagramme, de  la  norme  UML, à  offrir  une  vision 
+                        complète  et  non ambiguë  de  l’ensemble  des  comportements  de  l’élément  auquel  il  est  attaché.  
+                        En effet,  un diagramme  d’interaction  n’offre  qu’une  vue  partielle  correspondant  à  un scénario sans
+                         spécifier  comment  les  différents  scénarii  interagissent  entre  eux. La  vision globale  du système  
+                         n’apparaît  pas  sur ce  type  de  diagramme  puisqu’ils  ne  s’intéressent qu’à  un seul  élément  du 
+                         système  indépendamment  de  son environnement. Un automate  à  états  finis  est  un automate  dont  le 
+                          comportement  des  sorties  ne  dépend pas  seulement de  l’état  de  ses  entrées,  mais  aussi  d’un 
+                          historique  des  sollicitations  passées. Cet  historique  est caractérisé  par un  état  global.
+                        Un diagramme  d'états-transitions  présente  un automate  à  états  finis. Il  permet  ainsi  de  décrire  
+                        les changements  d'états  d'un objet  ou d'un composant. 
+                    </p>
+                    <ul>
+                        <li>Un état  se  caractérise  par sa  durée  et  sa  stabilité. </li>
+                        <li>Une transition représente  le  passage  instantané  d'un état  vers  un autre. Une  transition est  déclenchée : soit  par un événement.  Soit  automatiquement  lorsque  aucun événement  déclencheur  est  spécifié. </li>
+                    </ul>
+                    <h4>b)   Composants </h4>
+                    <p>Un diagramme  d'états-transitions  est  composé  des  éléments  suivants :</p>
+                    <ul>
+                        <li><b>Etat  :</b>  représente  la  valeur  des  attributs  d'un objet  à  un instant  donné. </li>
+                        <li><b>Etat  initial :</b> représente  l'état  au démarrage  du système.</li>
+                        <li><b>Etat  final  :</b>  représente  l'état  dans  lequel  se  trouve  le  système  à  la  fin du fonctionnement. </li>
+                        <li><b>Super-état  :</b>  permet  de  structurer le  diagramme  en indiquant  plusieurs  niveau de  distinction entre  les  états.</li>
+                        <li><b>Historique :</b> représente  le  dernier état  actif d'un super-état.   </li>
+                        <li><b>Souche :</b> permet  de  symboliser les  états  contenus  dans  un super-état. Il  est  ainsi  possible  de relier ces  états  à  d'autres  états  n'appartenant  pas  au super-état.</li>
+                        <li><b>Transition :</b> représente  le  passage  d'un état  à  un autre. </li>
+                        <li><b>Paquetage  :</b>  divise  et  organise  la  représentation du diagramme  (de  la  même  manière  que  les répertoires  organisent  les  fichiers).</li>
+                    </ul>
+                    <h4>c)   Automates  à  états  finis</h4>
+                    <p>
+                        Un automate  à  états  finis  est  graphiquement  représenté  par un graphe  comportant  des  états, matérialisés  
+                        par  des  rectangles  aux  coins  arrondis, et  des  transitions, matérialisées  par  des  arcs orientés  liant  les 
+                         états  entre  eux. Un diagramme  d’états-transitions  simple. Tous  les  automates  à  états  finis  des  diagrammes  
+                        d’états-transitions  d’un système  s’exécutent concurremment  et  peuvent  donc  changer  d’état  de  façon  indépendante. 
+                    </p>
+                    <h4>d)	  Types  d’état</h4>
+                    <p>
+                        Dans  un diagramme  d’état-transition, l’état  peut  être  simple  ou composite :
+                    </p>
+                    <ul>
+                        <li><i><u><b>État simple  :  </b></u></i>
+                            <p>
+                                Il  ne  possède  pas  de  sous-structure  mais  uniquement,  le  cas  échéant, un jeu de transitions 
+                                 internes. Exemple  d’état  simple  : Dans  le  cas  d’un diagramme  d’états-transitions  simple  (sans  
+                                 transition  concurrente), il  ne peut  y avoir qu’un seul  
+                                état  actif à  la  fois. Dans  ce  cas, les  notions  d’état  actif et  d’état global  se  rejoignent.
+                            </p>
+                        </li>
+                        <li><i><u><b>État Composites : </b></u></i>
+                            <p>
+                                Il  contient  des  sous-états. Un état  peut  être  partitionné  en  plusieurs  compartiments  séparés  par une  
+                                ligne  horizontale. Le  premier compartiment  contient  le  nom  de  l’état  et  les  autres  peuvent  recevoir 
+                                 des transitions  internes, ou des  sous-états, quand il  s’agit  d’un état  composite.  Dans  le  cas  d’un état  simple 
+                                 (sans  transitions  interne  ou sous-état),  on peut  omettre  toute  barre  de  séparation.
+                            </p>
+                        </li>
+                    </ul>
+                    <h4>e)	  Événements </h4>
+                    <p>
+                        Un événement  est  quelque  chose  qui  se  produit  pendant  l’exécution d’un système  et  qui  mérite d’être  modélisé. 
+                        Les  diagrammes  d’états-transitions  permettent  justement  de  spécifier  les  réactions d’une  partie  du système  à 
+                         des  événements  discrets. Un événement  se  produit  à  un instant  précis  et est  dépourvu de  durée.  Quand un événement
+                           est  reçu,  une  transition peut  être  déclenchée  et  faire basculer l’objet  dans  un nouvel  état. 
+                         On peut  diviser  les  événements  en  plusieurs  types  explicites  et implicites  :  appel, 
+                    </p>
+                    <h4>f)	 Transition </h4>
+                    <p>
+                        Une  transition définit  la  réponse  d’un objet  à  l’occurrence  d’un événement.  Elle  lie, 
+                        généralement, deux  états  E1 et  E2 et  indique  qu’un objet  dans  un état  E1 peut  entrer dans  
+                        l’état  E2 et  exécuter certaines  activités, si  un événement  déclencheur  se  produit  et  que  la 
+                         condition  de  garde  est  vérifiée. Elle  peut  être  interne  ou externe  et  sa  syntaxe  est  : 
+                         [ événement  ][ '['  garde  ']'  ] [ '/'  activité  ] 
+                        Le  même  événement  peut  être  le  déclencheur de Un événement  d’appel  représente  la  réception de  l’appel  d’une  
+                        opération par  un objet. Les paramètres  de  l’opération sont  ceux  de  l’événement  d’appel.  La  syntaxe  d’un événement  
+                        d’appel  est la  même  que  celle  d’un signal. Par  contre, les  événements  d’appel  sont  des  méthodes  déclarées  au niveau
+                        du diagramme  de  classes. 
+                    </p>
+                    <h4>g)    Condition  de  garde </h4>
+                    <p>
+                        Une  transition peut  avoir  une  condition de  garde 
+                        (spécifiée  par ’[’  garde  ’]’  dans  la  syntaxe). Il s’agit  d’une  expression logique  sur les 
+                         attributs  de  l’objet,  associé  au  diagramme  d’états-transitions, ainsi  que  sur les  paramètres 
+                          de  l’événement  déclencheur.  La  condition  de  garde  est  évaluée uniquement  lorsque  l’événement 
+                           déclencheur  se  produit. Si  l’expression  est  fausse  à  ce  moment-là, la  transition ne  se  
+                           déclenche  pas, si  elle  est  vraie, la  transition  se  déclenche  et  ses  effets  se produisent.
+                    </p>
+                    <h4>h)	  Effet  d’une  transition</h4>
+                    <p>
+                        Lorsqu’une  transition  se  déclenche  (on parle  également  de  tir d’une  transition),  son effet  
+                        (spécifié par  ’/’  activité  dans  la  syntaxe) 
+                        s’exécute. Il  s’agit  généralement  d’une  activité  qui  peut  être
+                    </p>
+                    <p>
+                        une opération  primitive  comme  une  instruction d’assignation ; 
+                        l’envoi  d’un signal ; 
+                        l’appel  d’une  opération ; 
+                        une liste  d’activités, etc.  
+                    </p>
+                    <ul>
+                        <li><u><b>Transition  externe</b></u>
+                            <p>Une  transition externe  est  une  transition qui  modifie  l’état  actif. </p>
+                        </li>
+                        <li><u><b>Transition  d’achèvement</b></u>
+                            <p>
+                                Une  transition dépourvue  d’événement  déclencheur explicite  se  déclenche  à  la  fin de  l’activité contenue 
+                                 dans  l’état  source.  Elle  peut  contenir  une  condition de  garde  qui  est  évaluée  au moment  où l’activité  
+                                 contenue  dans  l’état  s’achève,  et  non pas  ensuite. Les  transitions  de  garde  sont, par exemple,  utilisées  
+                                 pour  connecter  les  états  initiaux et  les  états historiques  
+                                 avec  leur état  successeurs  puisque  ces  pseudo-états  ne  peuvent  rester  actifs. 
+                            </p>
+                        </li>
+                        <li><u><b>Transition  interne</b></u>
+                            <p>
+                                Les  règles  de  déclenchement  d’une  transition interne  sont  les  mêmes  que  pour une  
+                                transition externe excepté  qu’une  transition interne  ne  possède  pas  d’état  cible  et  
+                                que  l’état  actif reste  le  même  à  la suite  de  son déclenchement. La  syntaxe  d’une  
+                                transition  interne  reste  la  même  que  celle  d’une transition  classique. Par contre, les 
+                                transitions  internes  ne  sont  pas  représentées  par des  arcs  mais sont  spécifiées  dans 
+                                un compartiment  de  leur état  associé. Représentation de  la  saisie  d’un mot  de  passe Les 
+                                transitions  internes  possèdent  des  noms  d’événement  prédéfinis  correspondant  à  
+                                des déclencheurs  particuliers  :  entry,  exit,  do  et  include. Ces  mots  clefs  réservés  
+                                viennent  prendre  la place  du nom  de  l’événement  dans  la  syntaxe  d’une  transition 
+                                interne.
+                                <b>entry</b> (permet  de  spécifier une  activité  qui  s’accomplit  quand on entre  dans  l’état.)
+                                <b>exit</b>  (permet  de  spécifier une  activité  qui  s’accomplit  quand on sort  de  l’état) 
+                                <b>do</b> (Une activité  do  commence  dès  que  l’activité  entry  est  terminée. Lorsque  cette  activité est  terminée, une  
+                                transition  d’achèvement  peut  être  déclenchée,  après  l’exécution  de l’activité  exit  bien entendu. Si  une  
+                                transition  se  déclenche  pendant  
+                                que  l’activité  do  est  en cours, cette  dernière  est  interrompue  et  l’activité  exit  de  l’état  s’exécute) 
+                                <b>include</b>  (permet  d’invoquer  un sous-diagramme  d’états-transitions. Les  activités  entry  servent  souvent  à  
+                                effectuer  la  configuration nécessaire  dans  un état. Comme  il n’est  pas  possible  de  l’éluder, toute  action interne 
+                                à  l’état  peut  supposer que  la  configuration  est effectuée  indépendamment  de  la  manière  dont  on entre  dans 
+                                l’état. De  manière  analogue,  une  activité  exit  est  une  occasion  de  procéder  à  un nettoyage. Cela  peut s’avérer 
+                                particulièrement  utile  lorsqu’il  existe  des  transitions  de  haut  niveau qui  représentent  des conditions  d’erreur 
+                                qui  abandonnent  les  états  imbriqués. Le  déclenchement  d’une  transition 
+                                interne ne  modifie  pas  l’état  actif et  n’entraîne  donc  pas  l’activation  des  activités  entry  et  exit.
+                            </p>
+                        </li>
+                        <li><u><b>Point  de  jonction</b></u>
+                            <p>
+                                Un point  de  jonction peut  avoir plusieurs  segments  de  transition  entrante  et  
+                                plusieurs  segments  de transition  sortante. Par contre, il  ne  peut  avoir d’activité  
+                                interne  ni  des  transitions  sortantes  dotées de  déclencheurs  d’événements. Il  ne  
+                                s’agit  pas  d’un état  qui  peut  être  actif au  cours  d’un laps  de  temps  fini. Lorsqu’un 
+                                chemin passant  par  un point  de  jonction  est  emprunté  (donc  lorsque  la  transition  associée  est  déclenchée) toutes  les  gardes  le  long de  ce  chemin doivent  s’évaluer  à  vrai  dès  le  franchissement  du premier segment. 
+                                Exemple  d’utilisation  de  deux points  de  jonction pour représenter une  alternative.
+                            </p>
+                        </li>
+                        <li><u><b>Point  de  décision</b></u>
+                            <p>
+                                Un point  de  décision  possède  une  entrée  et  au  moins  deux sorties.  Contrairement  à  un point  de jonction,  
+                                les  gardes  situées  après  le  point  de  décision  sont  évaluées  au moment  où il  est  atteint. Cela permet  de  
+                                baser le  choix sur des  résultats  obtenus  en franchissant  le  segment  avant  le  point  de choix.  Si, quand le  
+                                point  de  décision  est  atteint,  aucun segment  en aval  n’est  franchissable, c’est  que le  modèle  est  mal  formé.  
+                                Il  est  possible  d’utiliser  une  garde  particulière,  notée  [else], sur un des segments  en aval  d’un point  de  choix. 
+                                Ce  segment  n’est  franchissable  que  si  les  gardes  des  autres segments  sont  toutes  fausses. 
+                                L’utilisation d’une  clause  [else]  est  recommandée  après  un point  de décision car  elle  garantit  un modèle  bien formé
+                            </p>
+                        </li>
+                    </ul>
+                    <h3 id="p">2.	DIAGRAMMES DE CAS D’UTILISATION</h3>
+                    <p>
+                        Bien souvent, la maîtrise d'ouvrage et les utilisateurs ne sont pas des informaticiens. Il leur faut 
+                        donc un moyen simple d'exprimer leurs besoins. C'est précisément le rôle des diagrammes de cas 
+                        d'utilisation qui permettent de recueillir, d'analyser et d'organiser les besoins, et de recenser 
+                        les grandes fonctionnalités d'un système. Il s'agit donc de la première étape UML d'analyse d'un système.
+                        Un diagramme de cas d'utilisation capture le comportement d'un système, d'un sous-système, d'une 
+                        classe ou d'un composant tel qu'un utilisateur extérieur le voit. Il scinde la fonctionnalité du 
+                        système en unités cohérentes, les cas d'utilisation, ayant un sens pour les acteurs. Les cas d'utilisation 
+                        permettent d'exprimer le besoin des utilisateurs d'un système, ils sont donc une vision orientée utilisateur 
+                        de ce besoin au contraire d'une vision informatique.
+                        Il ne faut pas négliger cette première étape pour produire un logiciel conforme aux attentes des 
+                        utilisateurs. Pour élaborer les cas d'utilisation, il faut se fonder sur des entretiens avec les 
+                        utilisateurs.
+                    </p>
+                    <h4>2.1    Éléments des diagrammes de cas d'utilisation</h4>
+                    <h5>2.1.1   Acteur</h5>
+                    <p>
+                        Un acteur est l'idéalisation d'un rôle joué par une personne externe, un processus ou une chose qui 
+                        interagit avec un système.
+                        Il se représente par un petit bonhomme (figure 2.1) avec son nom (i.e. son rôle) inscrit dessous.
+                    </p>
+                    <!--<img src="IMAGES/19.PNG" alt="">-->
+                    <p>
+                        Il est également possible de représenter un acteur sous la forme d'un 
+                        classeur (cf. section 2.4.3) stéréotypé (cf. section 2.4.4) "actor" (figure 2.2).
+                    </p>
+                    <!--<img src="IMAGES/20.PNG" alt="">-->
+                    <h5>2.1.2   Cas d'utilisation</h5>
+                    <p>
+                        Un cas d'utilisation est une unité cohérente représentant une fonctionnalité visible de l'extérieur. 
+                        Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur 
+                        qui l'initie. Un cas d'utilisation modélise donc un service rendu par le système, sans imposer le mode de 
+                        réalisation de ce service.
+                        Un cas d'utilisation se représente par une ellipse (figure 2.3) contenant le nom du cas (un verbe à 
+                        l'infinitif), et optionnellement, au-dessus du nom, un stéréotype (cf. section 2.4.4). 
+                    </p>
+                    <!--<img src="IMAGES/21.PNG" alt="">-->
+                    <p>
+                        Dans le cas où l'on désire présenter les attributs ou les opérations du cas d'utilisation, il est préférable de le 
+                        représenter sous la forme d'un classeur stéréotypé << use case >> (figure 2.4). Nous reviendrons sur 
+                        les notions d'attributs ou d'opération lorsque nous aborderons les diagrammes de classes et d'objets (section 3). 
+                    </p>
+                    <!--<img src="IMAGES/22.PNG" alt="">-->
+                    <h4>2.2   Relations dans les diagrammes de cas d'utilisation</h4>
+                    <h5>2.2.1   Relations entre acteurs et cas d'utilisation</h5>
+                    <h6>a)   Relation d'association</h6>
+                    <!--<img src="IMAGES/23.PNG" alt="">-->
+                    <p>
+                        Une relation d'association est chemin de communication 
+                        entre un acteur et un cas d'utilisation et est représenté un trait continu (cf. figure 2.5 ou 2.6).
+                    </p>
+                    <h6>b)   Multiplicité</h6>
+                    <p>
+                        Lorsqu'un acteur peut interagir plusieurs fois avec un cas d'utilisation, il est possible d'ajouter une 
+                        multiplicité sur l'association du côté du cas d'utilisation. Le symbole * signifie plusieurs (figure 2.6), 
+                        exactement n s'écrit tout simplement n, n..m signifie entre n et m, etc. Préciser une multiplicité sur une 
+                        relation n'implique pas nécessairement que les cas sont utilisés en même temps.
+                        La notion de multiplicité n'est pas propre au diagramme de cas d'utilisation. Nous en reparlerons dans le 
+                        chapitre consacré au diagramme de classes section 3.3.4.
+                    </p>
+                    <h6>c)   Acteurs principaux et secondaires</h6>
+                    <p>
+                        Un acteur est qualifié de principal pour un cas d'utilisation lorsque ce cas rend service à cet acteur. 
+                        Les autres acteurs sont alors qualifiés de secondaires. Un cas d'utilisation a au plus un acteur principal. Un 
+                        acteur principal obtient un résultat observable du système tandis qu'un acteur secondaire est sollicité pour des 
+                        informations complémentaires. En général, l'acteur principal initie le cas d'utilisation par ses sollicitations. Le 
+                        stéréotype " primary" vient orner l'association reliant un cas 
+                        d'utilisation à son acteur principal, le stéréotype "secondary"  est utilisé pour les acteurs secondaires (figure 2.6).
+                    </p>
+                    <h6>d)   Cas d'utilisation interne</h6>
+                    <p>Quand un cas n'est pas directement relié à un acteur, il est qualifié de cas d'utilisation interne.</p>
+                    <h5>2.2.2   Relations entre cas d'utilisation</h5>
+                    <!--<img src="IMAGES/24.PNG" alt="">-->
+                    <h6>a)   Types et représentations</h6>
+                    <p>
+                        Il existe principalement deux types de relations :
+                        Les dépendances stéréotypées, qui sont explicitées par un stéréotype (les plus utilisés sont l'inclusion et 
+                        l'extension) ;
+                        Et la généralisation/spécialisation.
+                        Une dépendance se représente par une flèche avec un trait pointillé (figure 2.7). Si le cas A inclut ou 
+                        étend le cas B, la flèche est dirigée de A vers B.
+                        Le symbole utilisé pour la généralisation est une flèche avec un trait plein dont la pointe est un triangle 
+                        fermé désignant le cas le plus général (figure 2.7).
+                    </p>
+                    <h6>b)   Relation d'inclusion</h6>
+                    <p>
+                        Un cas A inclut un cas B si le comportement décrit par le cas A inclut le comportement du cas B : le cas 
+                        A dépend de B. Lorsque A est sollicité, B l'est obligatoirement, comme une partie de A. Cette dépendance 
+                        est symbolisée par le stéréotype "include"  (figure 2.7). Par exemple, l'accès aux informations d'un 
+                        compte bancaire inclut nécessairement une phase d'authentification avec un identifiant et un mot de passe 
+                        (figure).
+                        Les inclusions permettent essentiellement de factoriser une partie de la description d'un cas d'utilisation 
+                        qui serait commune à d'autres cas d'utilisation (cf. le cas S'authentifier de la figure 2.7).
+                        Les inclusions permettent également de décomposer un cas complexe en sous cas plus simples (figure 2.8).
+                        Cependant, il ne faut surtout pas abuser de ce type de décomposition : il faut éviter de réaliser du 
+                        découpage fonctionnel d'un cas d'utilisation en plusieurs sous-cas d'utilisation pour ne pas retomber dans 
+                        le travers de la décomposition fonctionnelle.
+                        Attention également au fait que, les cas d'utilisation ne s'enchaînent pas, puisqu'il n'y a aucune 
+                        représentation temporelle dans un diagramme de cas d'utilisation.
+                    </p>
+                    <!--<img src="IMAGES/25.PNG" alt="">-->
+                    <h6>c)    Relation d'extension</h6>
+                    <p>
+                        La relation d'extension est probablement la plus utile, car elle a une sémantique qui a un sens du point 
+                        de vue métier au contraire des deux autres qui sont plus des artifices d'informaticiens.
+                        On dit qu'un cas d'utilisation A étend un cas d'utilisation B lorsque le cas d'utilisation A peut être 
+                        appelé au cours de l'exécution du cas d'utilisation B. Exécuter B peut éventuellement entraîner l'exécution
+                         de A : contrairement à l'inclusion, l'extension est optionnelle. Cette dépendance est symbolisée par le 
+                         stéréotype "extend"  (figure 2.7).
+                        L'extension peut intervenir à un point précis du cas étendu. Ce point s'appelle le point d'extension. Il 
+                        porte un nom, qui figure dans un compartiment du cas étendu sous la rubrique point d'extension, et est 
+                        éventuellement associé à une contrainte indiquant le moment où l'extension intervient. Une extension est 
+                        souvent soumise à condition. Graphiquement, la condition est exprimée sous la forme d'une note. 
+                        La figure 2.7 présente l'exemple d'une banque où la vérification du solde du compte n'intervient que si la 
+                        demande de retrait dépasse 20 euros.
+                    </p>
+                    <h6>d)   Relation de généralisation</h6>
+                    <p>
+                        Un cas A est une généralisation d'un cas B si B est un cas particulier de A. Dans la figure 2.7, la 
+                        consultation d'un compte via Internet est un cas particulier de la consultation. Cette relation de 
+                        généralisation/spécialisation est présente 
+                        dans la plupart des diagrammes UML et se traduit par le concept d'héritage dans les langages orientés objet.
+                    </p>
+                    <h5>2.2.3   Relations entre acteurs</h5>
+                    <p>
+                        La seule relation possible entre deux acteurs est la généralisation : un acteur A est une généralisation 
+                        d'un acteur B si l'acteur A peut-être substitué par l'acteur B. Dans ce cas, tous les cas d'utilisation 
+                        accessibles à A le sont aussi à B, mais l'inverse n'est pas vrai.
+                        Le symbole utilisé pour la généralisation entre acteurs est une flèche avec un trait plein dont la pointe 
+                        est un triangle fermé désignant l'acteur le plus général (comme nous l'avons déjà vu pour la relation de 
+                        généralisation entre cas d'utilisation).
+                        Par exemple, la figure 2.9 montre que le directeur des ventes est un préposé aux commandes avec un pouvoir 
+                        supplémentaire : en plus de pouvoir passer et suivre une commande, il peut gérer le stock. Par contre, le 
+                        préposé aux commandes ne peut pas gérer le stock.
+                    </p>
+                    <!--<img src="IMAGES/26.PNG" alt="">-->
+                    <h3 id="q">3.	DIAGRAMME D’ACTIVITES</h3>
+                    <p>
+                        Le langage de modélisation unifié regroupe plusieurs sous-catégories de diagramme de structure dont l’une a
+                         pour but de décrire ce qui doit arriver dans le système de modélisation : il s’agit des diagrammes comportementaux a
+                          l’exemple du diagramme d’activités. 
+                        Fondamentalement, un diagramme d’activités est un organigramme illustrant les activités exécutées par un système.
+                    </p>
+                    <p>
+                        Les parties prenantes ont de nombreux problèmes à gérer ; il est donc important de communiquer avec 
+                        clarté et concision. Dans une entreprise, les diagrammes d’activités aident les différents intervenants 
+                        coté commercial et coté développement à collaborer pour comprendre un même procède et un même comportement. 
+                        Elle utilise un ensemble de symboles spécialises notamment ceux qu’on emploie pour commencer, terminer, 
+                        fusionner ou recevoir des étapes dans le flux. Pour mieux comprendre ce type de diagramme Il est impératif 
+                        de connaitre la nécessiter liée à leur utilisation. 
+	                    Les diagrammes d’activités présentent plusieurs avantages pour les utilisateurs puisqu’il permet:
+                    </p>
+                    <ul>
+                        <li>De démontrer la logique d’un algorithme </li>
+                        <li>De décrire les étapes effectuées dans un cas d’utilisation d’UML</li>
+                        <li>Illustrer un processus métier ou flux de travail entre les utilisateurs et le système</li>
+                        <li>Simplifier et améliorer n’importe quel processus en clarifiant les cas d’utilisation complexes</li>
+                        <li>Modéliser des éléments de l’architecture des logiciels, tels que la méthode, la fonction et l’utilisation. </li>
+                    </ul>
+                    <p>
+                        Les diagrammes d’activités permettent de mieux visualiser les schémas de procédés, d’identifier les points à 
+                        améliorer et de mettre en évidence les domaines performants. Ainsi, la connaissance 
+                        des composants de base d’un diagramme d’activités permet de facilite sa réalisation. Les composants les plus courants sont : 
+                    </p>
+                    <ul>
+                        <li><b>Action :</b> étape dans l’activité ou les utilisateurs ou le logiciel exécutent une tache donnée. Le plus souvent elle est symbolisée par un rectangle aux bords arrondis.</li>
+                        <li><b>Nœud de décision :</b> embranchement conditionnel dans le flux, qui est représenté par un losange. Il comporte une seule entrée et au moins deux sorties. </li>
+                        <li><b>Flux de contrôle :</b> autre nom donne aux connecteurs qui illustrent le flux entre les étapes du diagramme. </li>
+                        <li><b>Nœud de départ :</b> élément symbolisant le début de l’activité, que l’on représente par un cercle noir. </li>
+                        <li><b>Nœud de fin :</b> élément symbolisant l’étape finale de l’activité, que l’on représente avec un cercle noir ayant un contour. </li>
+                    </ul>
+                    <p>
+                        Un exemple de diagramme d’activités : cas du système de payement par carte magnétique
+                    </p>
+                    <!--<img src="IMAGES/29.PNG" alt="">-->
+                    <h4 id="r">4.	DIAGRAMMES D’INTERACTION</h4>
+                    <h5 id="s">a)   DIAGRAMMES DE COLLABORATION : Vue générale d’interaction  </h5>
+                    <h6>a.1)   Déﬁnition</h6>
+                    <p>
+                        Description des interactions entre les objets composant le système.
+                        Représentation se concentrant sur les relations d’interaction entre les objets.
+                        La dimension temporelle est ajoutée grâce à des numéros  de séquence.  
+                         Représente un ensemble de rôles joués par les objets dans un contexte particulier, ainsi que les liens
+                          entre ces objets.
+                        Les diagrammes de collaboration sont des diagrammes d’interaction  comme les diagrammes de séquence.
+                        Le passage à un diagramme de séquence  et inversement est simple.
+                    </p>
+                    <h6>a.2)   Utilisation des diagrammes de collaboration</h6>
+                    <ul>
+                        <li><u><b><i>Documentation des cas d’utilisation:</i></b></u>
+                            <p>
+                                description permettant de réaliser les cas d’utilisation;
+                                décrit le comportement du système pour chacun des scénarios  accompagnant les cas d’utilisation; 
+                                Facilite la rédaction des diagrammes des classes, des diagrammes  état-transition,... 
+                            </p>
+                        </li>
+                        <li><i><u><b>Documentation conceptuelle: </b></u></i>
+                            <p>
+                                description du comportement de classes et d’opérations;
+                               <b>Remarque :</b>  si les opérations ont une structure algorithmique, on préférera les décrire avec des diagrammes d’activités. 
+                               Les diagrammes de collaboration sont plus adaptés quand une opération fait  interagir de nombreux objets.
+                            </p>
+                        </li>
+                    </ul>
+                    <p><b><u>Collaboration :</u></b></p>
+                    <p>
+                        Déﬁnition des  éléments utiles pour obtenir un résultat en spéciﬁant leurs rôles dans le contexte de la collaboration.
+                        Elle est composée de deux description: 
+                        description générale au niveau spéciﬁcation qui représente: 
+                        (les rôles des cas d’utilisations, des classes, des méthodes et des associations); 
+                        (une interaction: une séquence de messages partiellement ordonnés échangés entre les rôles).
+                        et description spéciﬁque au niveau instance qui représente:
+                        (une instance particulière d’une interaction composés d’objets et de liens respectant les rôles, 
+                        et de stimulus (instances de messages) échangés entre ces objets.)
+                    </p>
+                    <p><b><u>Collaboration: rôles</u></b></p>
+                    <p>
+                        Chaque´ élément  d’une collaboration joue un rôle. 
+                        Le rôle des classiﬁcateurs (classes, cas d’utilisation,...) est représenté par un symbole de classe:
+                    </p>
+                    <!--<img src="IMAGES/30.PNG" alt="">-->
+                    <p>
+                        Les rôles des associations sont des textes respectant la syntaxe des étiquettes d’associations (diagrammes de classes).
+                    </p>
+                    <!--<img src="IMAGES/31.PNG" alt="">-->
+                    <p><b><u>Collaboration: niveau spéciﬁcation</u></b></p>
+                    <p>
+                        La collaboration forme un graphe de rôles liés par des rôles d’associations.
+                        En général, une collaboration au niveau speciﬁcation représente un contexte.
+                    </p>
+                    <!--<img src="IMAGES/32.PNG" alt="">-->
+                    <p><u><b>Collaboration: au niveau instance :</b></u></p>
+                    <p>
+                        Diagramme représentant une instance du diagramme au niveau spéciﬁcation avec des
+                       <b>Stimulus :</b> ( instance d’un message envoyé d’un objet vers un autre)
+                    </p>
+                    <!--<img src="IMAGES/33.PNG" alt="">-->
+                    <p><u><b>Collaboration: représentation condensée :</b></u></p>
+                    <p>Dans <b>UML</b> , une collaboration est représentée comme suit:</p>
+                    <!--<img src="IMAGES/34.PNG" alt="">-->
+                    <p><u><i>Messages</i></u></p>
+                    <p>
+                        Les messages sont le seul moyen de communication entre les objets. Ils sont décrits essentiellement par l’objet 
+                        émetteur et l’objet récepteur. Leur description peut être complétée par un nom, une séquence, des arguments, un 
+                        résultat attendu, 
+                        une synchronisation, une condition d’émission. La séquence permet de préciser l’ordre d’émission des messages.
+                    </p>
+                    <!--<img src="IMAGES/35.PNG" alt="">-->
+                    <p><u><i>Messages: itération</i></u></p>
+                    <p>
+                        <b>Itération séquentielle</b> (envoi séquentiel de n instances du même message. Syntaxe:*[clause d’itération])
+                        <b>Itération parallèle</b> (envoi parallèle de n instances du même message. 
+                        Syntaxe:*|| [clause d’itération])
+                    </p>
+                    <!--<img src="IMAGES/36.PNG" alt="">-->
+                    <p><u><i>Message :Arguments</i></u></p>
+                    <p>
+                        Liste des paramètres du message séparés par des virgules.
+                        Les arguments et le nom de l’action déterminent sans ambigueıté l’action à réaliser. 
+                        Les arguments peuvent contenir des valeurs retournées par  des messages envoyés précédemment. 
+                        <b>Exemples:</b> </br>Afficher(x,y) : Afﬁche les valeurs x et y </br>
+                        Soustraire(Aujourd’hui, DateDeNaissance) : Calculer le nombre de jours entre deux dates
+                    </p>
+                    <p><u><i>Messages: résultat</i></u></p>
+                    <p>
+                        Le résultat est constitué d’une liste de valeurs retournées par le message; 
+                        Ces valeurs peuvent être utilisées comme paramètres des autres messages.
+                    </p>
+                    <!--<img src="IMAGES/37.PNG" alt="">-->
+                    <p><u><i>Interaction </i></u></p>
+                    <p>
+                        Une interaction définit la communication entre les objets sous la forme d’un ensemble partiellement 
+                        ordonné de messages. L’objet émetteur envoie un message à l’objet récepteur. Les objets représentés 
+                        dans les diagrammes de collaboration ne sont pas nécessairement des instances d’entités. 
+                        Certains messages peuvent avoir pour origine des acteurs que l’on pourra représenter.
+                        <b>Formalisme :</b> l’interaction se représente par une flèche avec un texte décrivant le message.
+                    </p>
+                    <!--<img src="IMAGES/38.PNG" alt="">-->
+                    <p><u><i>Représentation des acteurs</i></u></p>
+                    <p>
+                        La notation UML permet de faire ﬁgurer un acteur dans les diagrammes de collaboration;
+                        Ils permettent de représenter les interactions déclenchées par un élément extérieur au système; 
+                        Le premier message est envoyé par l’acteur.
+                    </p>
+                    <!--<img src="IMAGES/39.PNG" alt="">-->
+                    <p>
+                        La définition d'un acteur dans le contexte d'un diagramme de collaboration est la même que celle en vigueur dans les 
+                        diagrammes de cas d'utilisation ou de séquence ; 
+                        elle spécifie un utilisateur externe, ou un ensemble d'utilisateurs liés qui interagissent avec un système.
+                    </p>
+                    <h6>c)   Classes abstraites et interface</h6>
+                    <p>
+                        Les classes abstraites et les interfaces peuvent ﬁgurer dans les diagrammes de collaboration;
+                        Elles représentent des informations complémentaires : liens polymorphes, réalisation d’interfaces,...
+                    </p>       
+                    <!--<img src="IMAGES/40.PNG" alt="">-->
+                    <h5 id="t">b) 	DIAGRAMME DE SÉQUENCE</h5>
+                    <p>
+                        Le diagramme de séquence fait partie des diagrammes comportementaux et plus précisément des diagrammes d'interaction. 
+                        Il permet de représenter des échanges entre les différents objets et acteurs du système en fonction du temps.
+                    </p>
+                    <p>
+                        A moins que le système à modéliser soit 
+                        extrêmement simple nous ne pouvons pas modéliser la dynamique globale du système dans un diagramme.
+                    </p>
+                    <h6>b.1)   La Représentation d'un diagramme de séquence</h6>
+                    <ul>
+                        <li><u><b>Délimitation d'un diagramme de séquence</b></u>
+                            <p>
+                                Le diagramme de séquence est placé dans Une rectangle qui dispose d'un 
+                                étiquette Sd en haut et à gauche (qui signifie séquence diagramme) suivie du nom du diagramme
+                            </p>
+                                <p><b><i>L'objet: </i></b></p>
+                                <p>
+                                    Dans un diagramme de séquence l'objet à la même présentation que dans le diagramme des objets 
+                                    c'est à dire un rectangle dans lequel figure le nom de l'objet. 
+                                    Le nom de l'objet est généralement souligné et peut prendre l'un des quatre formes suivantes
+                                </p>
+                                <!--<img src="IMAGES/41.PNG" alt="">-->
+                                <p>
+                                    Le diagramme de séquence représente les échanges entre les objets mais aussi les échanges avec les acteurs.
+                                </p>
+                        </li>
+                        <li><u><b>La ligne de vie</b></u>
+                            <p>
+                                Comme il représente la dynamique du système le diagramme de séquence fait entre en action 
+                                les instances des classes intervenantes dans la réalisation d'un cas d'utilisation particulier.
+                            </p>
+                            <!--<img src="IMAGES/42.PNG" alt="">-->
+                            <p>
+                                La ligne de vie indiqué les périodes d'activité de l’objet, lorsque l'objet est détruit la 
+                                ligne de vie s'achève par une croix
+                            </p>
+                        </li>
+                    </ul>
+                    <h6>b.2)   Les messages </h6>
+                    <ul>
+                        <li><u><i><b>Définition</b></i></u>
+                            <p>
+                                C'est une communication particulière entre des lignes de vie. Un message est une communication d'un objet vers un autre objet. 
+                                Il y a plusieurs types de messages qui existent : les messages synchrones et message asynchrone
+                            </p>
+                        </li>
+                        <li><u><i><b>Les messages synchrones</b></i></u>
+                            <p>
+                                La réception d'un message synchrone doit provoquer chez les destinataires le lancement 
+                                d'une de ses méthodes (qui est souvent porte le même nom que le message).
+                            </p>
+                            <p>
+                                L'expéditeur du message rester bloqué pendant toute l'exécution de la méthode 
+                                et attends dont la fin de celle-ci avant de pouvoir lancer un nouveau message.
+                            </p>
+                            <!--<img src="IMAGES/43.PNG" alt="">-->
+                        </li>
+                        <li><u><i><b>Les messages asynchrones</b></i></u>
+                            <p>
+                                Dans le cas d'un message asynchrone l'expéditeur n'attend pas la fin de 
+                                l'activation de la méthode invoqué chez les destinataires un message.
+                            </p>
+                            <!--<img src="IMAGES/44.PNG" alt="">-->
+                            <p>
+                                Dans le diagramme de séquence, les envois de messages sont représentés par des flèches horizontales qui vont de la 
+                                ligne de vie de l'objet l'émetteur vers la ligne de vie de l'objet récepteur du message.
+                            </p>
+                            <!--<img src="IMAGES/45.PNG" alt="">-->
+                        </li>
+                        <li><u><i>La création et Représentation d'objets<b></b></i></u>
+                            <p>
+                                Une séquence peut aussi contenu la création ou la destruction d'un objet
+                            </p>
+                            <p><u><b>La création</b></u></p>
+                            <p>
+                                La création d'un objet est matérialisée par un message spécifique, appel d'un ‹ constructeur ›, 
+                                la ligne de vie de l'objet créé le rectangle du l'instance de la classe est alors surbaissée
+                            </p>
+                            <p><u><b>La Destruction</b></u></p>
+                            <p>Est représenté par une croix à la fin de sa ligne de vie. Souvent l'objet est détruite suite à la réception d'un message mais 
+                                ce n'est pas obligatoire dans ce cas-là il porte steoritype "destry"</p>
+                            <!--<img src="IMAGES/46.PNG" alt="">-->
+                        </li>
+                    </ul>
+                    <p><i><b><mark>Différence entre diagramme de séquence et diagramme de cas d’utilisation</mark></b></i></p>
+                    <p>
+                        Bien que les deux diagrammes sont de diagramme comportementaux, le diagramme de séquence est précisément un diagramme 
+                        d'interaction entre les différents objets acteurs et permet de représenter les échanges entre les différents objets et 
+                        acteurs du système en fonction du temps tandis que le diagramme de cas d'utilisation permet de structure les besoins des 
+                        utilisateurs et les objectifs correspondant d'un système et il centre l'exigence du système sur les utilisateurs
+                    </p>
+                    <h6 id="u">c)	DIAGRAMME DE COMMUNICATION</h6>
+                    <p>
+                        Un diagramme de communication représente les interactions entre les objets et les messages transmis entre les lignes 
+                        de vie. Dans les versions précédentes d'UML, ce diagramme s'appelait diagramme de collaboration.
+                    </p>
+                    <p>
+                        Les diagrammes de communication sont des diagrammes d'interaction que vous pouvez utiliser pour explorer le comportement 
+                        dynamique d'un système ou d'une application logicielle. Ils offrent une autre vue des informations des diagrammes de séquence. 
+                        Dans les diagrammes de séquence, l'accent est mis sur l'ordre des messages dans le temps alors que dans les diagrammes de 
+                        communication l'accent est mis sur la structure des messages transmis entre les objets dans l'interaction. 
+                        Ces diagrammes illustrent le flux de messages entre les objets et les relations que cela entraîne entre les classes.
+                    </p>
+                    <p>
+                        Les diagrammes de communication vous permettent d'explorer le fonctionnement des objets dans un système ou une application. 
+                        Ils peuvent identifier les aspects suivants d'une interaction ou d'une tâche :
+                    </p>
+                    <ul>
+                        <li>Les objets qui participent à l'interaction</li>
+                        <li>Les interfaces que les classes participantes requièrent</li>
+                        <li>Les changements de structure requis par une interaction</li>
+                        <li>Les données transmises entre les objets dans une interaction</li>
+                    </ul>
+                    <p>
+                        Les diagrammes de communication ressemblent aux diagrammes d'objets dans lesquels une ligne de vie représente 
+                        les objets de l'interaction et les flèches représentent les messages transmis entre les lignes de vie. Les pointes de flèches 
+                        indiquent la direction des messages et les numéros de séquence indiquent l'ordre de transmission des messages.
+                    </p>
+                    <p>
+                        Le diagramme de communication appelé au paravent le diagramme de collaboration dans le langage de modélisation unifié fait 
+                        référence à un graphique qui représente le flux de messages dans un système. Il montre comment les parties d’un système 
+                        interagissent ou communiquent entre elles. 
+                        Ce type de diagramme utilise l’arrangement de forme libre, c’est pourquoi les messages sont étiquetés avec des nombres.
+                    </p>
+                    <!--<img src="IMAGES/47.PNG" alt="">-->
+                    <p><b><u><i>Composants du diagramme de communication</i></u></b></p>
+                    <p>
+                        Comme tout autre diagramme, le diagramme de communication UML comporte également 
+                        plusieurs composants qui constituent son intégralité. 
+                        La bonne chose à propos de ce schéma est qu’il peut être réalisé avec seulement quelques composants.
+                    </p>
+                    <ul>
+                        <li>
+                            <b>Rectangle :</b> Ce symbole représente les objets dans l’application. En résumé, ce sont eux qui 
+                            communiquent pour exécuter des ordres ou maintenir l’application ou le système fonctionnel.
+                        </li>
+                        <li>
+                            <b>Lignes :</b> Cet élément du diagramme de communication dirige le flux de messages au sein du système. 
+                            En dehors de cela, il montre également la relation entre les objets au sein du système.
+                        </li>
+                        <li>
+                            <b>Flèches :</b> Ce composant indique la direction dans laquelle le message circule.
+                        </li>
+                        <li>
+                            <b>Nombre :</b> Les nombres présents dans ce type de diagramme représentent l’ordre dans lequel les messages sont envoyés.
+                        </li>
+                    </ul>
+                    <h6 id="v">d)	DIAGRAMME DE TEMPS</h6>
+                    <p>
+                        C’est un diagramme structurel qui représente le changement d’état ou de valeur d’un 
+                        ou de plusieurs objets sur un certain temps. Ce type de diagramme se compose principalement d’une ligne de vie, 
+                        d’une chronologie d’état, d’une contrainte de durée, d’une contrainte de temps et d’une occurrence de destruction.
+                    </p>
+                    <p>
+                        <b>NB :</b> Nous notons à cet effet que le langage UML est utilisé uniquement pour la mise sur pieds d’un système informatique 
+                        et que c’est lors de la conception que ses différents diagrammes sont utilisés. Tous ces diagrammes ne sont pas dépendants 
+                        mais complémentaires c’est-à-dire que pour la confection d’un système par exemple, 
+                        on n’utilisera uniquement ceux dont on aura besoin en fonction de la commande de l’utilisateur ou du client.
+                    </p>
+                </div>
+                <div class="Grand_quatre">
+                    <h2 id="w">IV.	AVANTAGES ET INCONVENIENTS D’UML</h2>
+                    <h3 id="x">1.	AVANTAGES</h3>
+                    <p>
+                        UML est un langage formel et normalisé : Il permet le gain de précision, 
+                        encourage l'utilisation d'outils et constitue à cet effet un gage de stabilité. 
+                    </p>
+                    <p>
+                        UML est un support de communication performant :Il cadre l'analyse et facilite la compréhension de 
+                        représentations abstraites complexes. Son caractère polyvalent et sa souplesse en font un langage universel.
+                    </p>
+                    <h3 id="y">2.	INCONVENIENTS</h3>
+                    <p>
+                        La mise en pratique d'UML nécessite un apprentissage et passe par une période d'adaptation. 
+                        Même si l'Espéranto est une utopie, la nécessité de s'accorder sur des modes d'expression communs est 
+                        vitale en informatique. UML n'est pas à l'origine des concepts objets, mais en constitue une étape majeure,
+                        car il unifie les différentes approches et en donne une définition plus formelle.
+                    </p>
+                    <p>
+                        Le processus (non couvert par UML) est une autre clé de la réussite d'un projet. Or, l'intégration d'UML dans un 
+                        processus n'est pas triviale et améliorer un processus est une tâche complexe et longue. Les auteurs d'UML sont tout 
+                        à fait conscients de l'importance du processus, mais l'acceptabilité 
+                        industrielle de la modélisation objet passe d'abord par la disponibilité d'un langage d'analyse.
+                    </p>
+                </div>
+                <div class="Conclusion">
+                    <h2 id="z">CONCLUSION</h2>
+                    <p>
+                        Parvenu au terme de notre étude, il était question pour nous de présenter dans son ensemble le langage de modélisation 
+                        unifié  UML ainsi que ses diagrammes constitutifs. Il en ressort donc que la réussite totale du  projet dépend de sa 
+                        modélisation. 
+                        D’où l’insistance sur les processus de modélisation avec UML car c’est l’un des langages les plus utilisés pour ce travail. 
+                    </p>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+    <footer>
+        <div>
+            <h1>Contactez nous</h1>
+            <ul class="contacts">
+                <li><img src="icon/whatsapp.jpg"><p class="tel">WhatsApp__699279804</p></li>
+                <li><img src="icon/tel.jpg"><p class="tel">Tel:699279804/654584234</p></li>
+                <li><img src="icon/mail.jpg"><p class="tel">azaodavid7@gmail.com</p></li>
+                <li><img src="icon/local.jpg"><p class="tel">Ngaoundéré-Cameroun</p></li>
+            </ul>
+       </div>
+            <p>copyright &copy; AzaoDavidDogo --- 2021-2022 - Tous droits Reservés</p>
+       <div>
+    </footer>
+    </body>
+</html>
